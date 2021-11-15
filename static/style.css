@@ -1,0 +1,192 @@
+body {
+	height: 1000px;
+	background: #eee;
+}
+:root {
+	--blue: #0e4595;
+}
+.background_main {
+	background-color: #eee;
+}
+.background {
+	background-color: var(--blue) !important;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	font-weight: 600;
+}
+.navbar {
+	padding: 4px 0px;
+}
+.navbar-light .navbar-nav .nav-link.active {
+	color: yellow;
+	font-weight: 700;
+	border: 2px solid yellow;
+	border-radius: 10px;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+	opacity: 0.6;
+	color: white;
+}
+.color_bell {
+	color: white !important;
+	font-size: 20px;
+}
+.hover_cl:hover {
+	opacity: 0.5;
+}
+.mr_40px {
+	margin-right: 40px;
+}
+.btn_logout {
+	border-radius: 5px;
+	border: 1px solid yellow;
+	color: yellow;
+	margin-bottom: 2px;
+	background: var(--blue);
+}
+.btn_logout:hover {
+	opacity: 0.6;
+	background: green;
+	color: white;
+	padding-bottom: 2px;
+	line-height: 1;
+}
+.container1 {
+	display: flex;
+	background: #eee;
+}
+.content1 {
+	margin: 0 40px;
+	font-size: 13px;
+}
+.card-title > b > span {
+	font-size: 13px;
+}
+p {
+	margin: 0;
+}
+.card-title {
+	margin: 3px 0px;
+}
+.card-body {
+	padding: 5px;
+}
+.card-text {
+	font-size: 10px;
+	color: green;
+}
+#canvas {
+	width: 100%;
+}
+.chartjs {
+	background-color: white;
+	padding: 10px;
+}
+.chartjs > h5 {
+	font-weight: 800;
+}
+.content {
+	margin-right: 20px;
+}
+.search_class {
+	margin-top: 30px;
+}
+.text-card {
+	font-size: 7px;
+}
+.title-card {
+	font-size: 16px;
+}
+.notify {
+	margin-top: 30px;
+}
+.noboder {
+	border: none !important;
+}
+.process_class {
+	padding: 15px 0;
+	background-color: #ccc;
+}
+.mobile_img {
+	margin-top: 10px;
+}
+.container2 .content2 {
+	text-align: center;
+	margin: 20px 25% 0;
+	padding: 50px 0;
+}
+.mycard {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#carouselExampleControls {
+	margin-top: 10px;
+}
+.title,
+.text {
+	text-align: start;
+	margin-left: 10px;
+}
+.title {
+	margin-top: 5px;
+}
+.text {
+	color: red;
+}
+.container3 {
+	padding-top: 40px;
+	background-color: white;
+	padding-bottom: 60px;
+}
+.container3 .content3 {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container3 .content3 > h4 {
+	text-align: center;
+}
+.checked {
+	color: orange;
+}
+.product_name {
+	margin-top: 20px;
+	font-size: 14px;
+}
+.card-body > .price {
+	font-size: 14px;
+	font-weight: 600;
+	color: red;
+}
+.card-body > .price > .price1 {
+	color: #aaa;
+	padding: 0 10px;
+}
+.card-body > .price > .price2 {
+	color: green;
+}
+.card-body > span {
+	font-size: 13px;
+}
+.col > .card > img {
+	height: 175px;
+}
+footer {
+	background-color: white;
+}
+hr {
+	margin: 0 50px;
+	padding: 1px 0;
+	background-color: #07400b;
+	color: #07400b;
+}
+footer > p {
+	margin-left: 50px;
+	margin-top: 10px;
+	font-size: 14px;
+}
